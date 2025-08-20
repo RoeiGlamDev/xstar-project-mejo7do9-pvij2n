@@ -1,0 +1,71 @@
+Here's a sample `package.json` for your luxury dark AirBNB website named HouseIL, built with React and TypeScript. This configuration includes essential dependencies for a React application, TypeScript support, and some additional libraries that might be useful for building a high-end design.
+
+```json
+{
+  "name": "houseil",
+  "version": "1.0.0",
+  "description": "A luxury dark AirBNB website with an elegant design.",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "luxury",
+    "airbnb",
+    "react",
+    "typescript",
+    "website"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "homepage": "https://yourwebsite.com",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-router-dom": "^6.0.0",
+    "styled-components": "^5.3.0",
+    "axios": "^0.24.0",
+    "framer-motion": "^4.1.0",
+    "react-icons": "^4.3.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/react-router-dom": "^5.3.3",
+    "eslint": "^7.32.0",
+    "eslint-plugin-react": "^7.28.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+```
+
+### Explanation of Key Dependencies:
+- **react** and **react-dom**: Core libraries for building the React application.
+- **react-router-dom**: For routing within the application.
+- **styled-components**: For styling your components with CSS-in-JS, which can help achieve the elegant design.
+- **axios**: For making HTTP requests, useful for fetching data.
+- **framer-motion**: For animations, which can enhance the user experience.
+- **react-icons**: For using icons in your application.
+
+### Development Dependencies:
+- **typescript**: Adds TypeScript support to your React application.
+- **@types/react** and **@types/react-dom**: Type definitions for React and React DOM.
+- **eslint** and **eslint-plugin-react**: For linting your code and ensuring code quality.
+
+Make sure to adjust the `author`, `homepage`, and any other fields as necessary for your project. You can install the dependencies by running `npm install` or `yarn install` after creating this `package.json` file.
